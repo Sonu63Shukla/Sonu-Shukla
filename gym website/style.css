@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caladea&family=Nunito+Sans:ital,wght@0,300;0,400;1,300&family=Roboto+Slab:wght@300;700&family=Ubuntu&display=swap');
+
+body{
+    background: url('backgrond\ image\ 3.0.webp') no-repeat center center/cover;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+}
+
+.mid{
+    /* border: 2px solid yellow; */
+    display: block;
+    width: 38%;
+    margin: 5px auto;
+    color: white;
+}
+
+.right{
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+}
+
+.navbar{
+    display: inline-block;
+
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 13px;
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+
+}
+
+.left img{
+    width: 115px;
+}
+
+.btn{
+    color: black;
+    background-color: wheat;
+    border-radius: 9px;
+    margin: 2px 2px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 1s ease-in-out .3s;
+    box-shadow: 1px 1px 3px red;
+
+}
+
+.btn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: aqua;
+    font-size: 25px;
+    height: 80px;
+    width: 150px;
+
+}
+
+.container{
+    width: 36%;
+    /* border: 2px solid black; */
+    margin: 95px 35px;
+    padding: 90px 20px;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    padding: 12px;
+    width: 508px;
+    font-size: 25px;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.container button{
+    display: block;
+    width: 36%;
+    margin: 12px auto;
+    padding: 12px;
+    font-size: 25px;
+}
